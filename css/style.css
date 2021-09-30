@@ -929,7 +929,7 @@ footer::before{
     font-weight: 400;
     transition: all 1s;
 }
-.footer__input:hover input{
+.footer__input input:hover{
     border: 1px solid #f55f8d;
 }
 .footer__btn{
@@ -1021,9 +1021,14 @@ footer::before{
     color: #ffffff99;
     font-size: 15px;
     text-decoration: none;
+    transition: all 1s;
 }
 .footer__links i{
     color: #ffffff99;
+    transition: all 1s;
+}
+.footer__links li:hover a, .footer__links li:hover i{
+    color: white;
 }
 .footer__copyright{
     background-color: #1f343b;
@@ -1056,9 +1061,6 @@ text-decoration: none;
 .footer__social a:hover{
     background:  linear-gradient(to right,#f55f8d 0,#f8ae56 100%);
 }
-
-
-
 
 
 /* BACK TO TOP */
